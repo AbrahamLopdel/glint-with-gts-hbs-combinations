@@ -89,6 +89,7 @@
     "babel-plugin-ember-template-compilation": "^2.2.1",
     "concurrently": "^8.2.2",
     "ember-template-lint": "^5.13.0",
+    "ember-template-imports": "^4.1.1",
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-ember": "^11.12.0",
@@ -111,6 +112,10 @@
     "version": 2,
     "type": "addon",
     "main": "addon-main.cjs",
-    "app-js": {}
+    "app-js": {
+      "./components/component-a.js": "./dist/_app_/components/component-a.js",
+      "./components/first-level.js": "./dist/_app_/components/first-level.js",
+      "./components/level1/level2/test/index.js": "./dist/_app_/components/level1/level2/test/index.js"
+    }
   }
 }
