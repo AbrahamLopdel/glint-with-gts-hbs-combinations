@@ -15,3 +15,5 @@ declarations/
 node_modules/
 .eslintcache
 .prettiercache
+
+.DS_Store
