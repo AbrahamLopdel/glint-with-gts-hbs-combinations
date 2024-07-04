@@ -115,6 +115,7 @@
     "app-js": {
       "./components/component-a.js": "./dist/_app_/components/component-a.js",
       "./components/first-level.js": "./dist/_app_/components/first-level.js",
+      "./components/level1/level2/sample.js": "./dist/_app_/components/level1/level2/sample.js",
       "./components/level1/level2/test/index.js": "./dist/_app_/components/level1/level2/test/index.js"
     }
   }

@@ -3,9 +3,11 @@
 // See https://typed-ember.gitbook.io/glint/environments/ember/authoring-addons
 
 // import type MyComponent from './components/my-component';
+import Sample from './components/level1/level2/sample.ts';
 
 // Remove this once entries have been added! 👇
 // eslint-disable-next-line @typescript-eslint/no-empty-interface
 export default interface Registry {
   // MyComponent: typeof MyComponent
+  'Level1::Level2::Sample': typeof Sample;
 }
